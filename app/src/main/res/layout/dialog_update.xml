@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="13dp">
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="top"
+        android:hint="Entrez le nom"
+        android:lines="4"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="top"
+        android:hint="Entrez le prénom"
+        android:lines="4"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/tel"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="top"
+        android:hint="Entrez le téléphone"
+        android:lines="4"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/dateNais"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="top"
+        android:hint="Entrez la date de naissance"
+        android:lines="4"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="top"
+        android:hint="Entrez l'e-mail"
+        android:lines="4"
+        android:padding="12dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/update"
+        android:layout_marginTop="13dp"
+        />
+
+</LinearLayout>
